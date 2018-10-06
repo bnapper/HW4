@@ -1,0 +1,17 @@
+function setup() {
+  createCanvas(400, 400);
+  colorMode(HSB, width, height, 200);
+}
+
+function draw() {
+  var x = random(width);
+  var y = random(height);
+	
+	for (var i = 100; i < 100; i = i + 100) {
+  print(i);
+
+  stroke(x, y, i);
+  point(x, y, i);
+		
+	}
+}
